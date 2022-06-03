@@ -1,0 +1,476 @@
+body {
+  color: #FFFFFF;
+  height: 100vh;
+  /* cursor:url("https://i.stack.imgur.com/KDrS2.png"),auto; */
+  cursor: url("../images/redx-logo-30.png"), auto;
+
+
+}
+
+h1 {
+  display: block;
+  letter-spacing: 45px;
+  font-size: 45px;
+}
+
+#title {
+  padding: 2% 5%;
+  text-align: left;
+  /* background-image: url("../images/title-background-B.jpg"); */
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../images/title-background-B.jpeg");
+
+  background-size: cover;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+.title-background{
+  width: 100%;
+  z-index: -5;
+
+}
+
+
+.navbar-brand {
+  width: 12%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.title-header {
+  line-height: 74px;
+  position: relative;
+  margin-top: 15%;
+  width: 100%;
+}
+
+.title-header-eng {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.title-text {
+  font-size: 31px;
+  font-weight: lighter;
+  width: 550px;
+  margin: 50px 0;
+}
+
+.title-QR {
+  margin-top: 50px;
+  width: 135px;
+  height: 135px;
+}
+
+
+
+.iphoneScreen {
+
+  width:450px;
+  position: absolute;
+
+  right: 60%;
+
+}
+
+.shake_effect {
+  animation: shake 0.5s;
+}
+
+#features {
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+  position: relative;
+  width: 100%;
+
+}
+
+.feature-logo {
+  margin: 50px;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 50px;
+  -webkit-transition: -webkit-transform 1s;
+  cursor: url("../images/redx-logo-30.png"), auto;
+}
+
+.feature-image:hover {
+  -webkit-transform: rotate(1080deg);
+  translateZ(0);
+}
+
+#carousel, #features {
+  background-color: #EF462C;
+  box-shadow: 0 0 5px 10px #EF462C;
+  z-index: 6;
+  cursor: url("../images/whitex-logo-30.png"), auto;
+}
+
+#intro {
+  padding: 200px 50px;
+  z-index: -5;
+}
+.intro-image{
+  width:800px;
+}
+.intro-left, .intro-right {
+  font-size: 50px;
+}
+.intro-left{
+  padding-top: 200px;
+}
+.intro-desc-left, .intro-desc-right {
+  font-size: 20px;
+}
+
+.intro-left, .intro-desc-left {
+  text-align: left;
+  padding-left: 5%;
+
+}
+
+.intro-right, .intro-desc-right {
+  text-align: right;
+  padding-right: 5%;
+
+}
+
+.intro-left-section{
+  padding-top: 75px;
+}
+.intro-right-section{
+  padding-top: 450px;
+
+}
+
+.intro-right-image{
+    opacity: 0.3;
+    right: 2px;
+    align-content: right;
+    position: absolute;
+    z-index: 5;
+    top: 2300px;
+    height: 496px;
+    
+
+}
+
+.intro-left-image{
+  /* transform:rotate(-20deg); */
+  margin-top: 200px;
+  opacity: 0.3;
+  align-content: left;
+position: absolute;
+  z-index: 5;
+  top: 1500px;
+
+}
+#intro, #about-us, #follow-us, #contact-us, #footer {
+  background-color: #000000;
+}
+
+#about-us {
+  padding: 50px;
+  padding-top: 200px;
+}
+
+.st-au, .st-fu, .st-cu {
+  font-size: 100px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.st-au {
+  letter-spacing: 80px;
+  margin-left: 55%;
+}
+
+.au-desc {
+  width: 400px;
+  margin-left: 150px;
+  position: relative;
+  top: -220px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 193.5%;
+}
+.ab-bkg {
+  opacity: 0.3;
+  right: 2px;
+  align-content: right;
+  position: absolute;
+  z-index: 5;
+  top: 3100px;
+  height: 496px;
+}
+#contact-us {
+  padding: 50px;
+}
+
+.c-wechat, .c-commercial, .c-email, .c-address {
+  border-color: #8D8C8C;
+  /* border-width: 50px; */
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 35px 20px;
+  font-size: 20px;
+  border: 1px solid #8D8C8C;
+  border-radius: 20px;
+  margin-right: 60px;
+  height: 15%;
+  width: 20%;
+}
+
+.cd:hover {
+  background-color: #EF462C;
+}
+
+.c-wechat:hover {
+  background-color: #EF462C;
+}
+
+.c-commercial:hover {
+  background-color: #EF462C;
+}
+
+.c-email:hover {
+  background-color: #EF462C;
+}
+
+.c-address:hover {
+  background-color: #EF462C;
+}
+
+.st-cu {
+  display: block;
+  margin-bottom: 80px;
+}
+
+.st-cu {
+  text-align: left;
+  letter-spacing: 50px;
+}
+
+#follow-us {
+  text-align: right;
+  padding-top: 180px;
+  ;
+}
+
+.st-fu {
+  text-align: right;
+  display: block;
+  font-size: 100px;
+  letter-spacing: 50px;
+}
+
+.fu-details {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 50px;
+}
+
+.fu-details p {
+  text-align: center;
+}
+
+.fu-tiktok, .fu-wechat, .fu-weibo {
+  display: inline-block;
+  margin: 50px;
+}
+
+.fu-qr {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.fu-qr:hover {
+  animation: shake 0.5s;
+}
+
+#carousel {
+  padding: 50px;
+}
+
+.slide {
+  width: 70px;
+  height: 50px;
+}
+
+#footer {
+  text-align: right;
+  padding-right: 10%;
+  position: relative;
+  z-index: -1;
+  padding-top: 50px;
+  padding: 50px 40px;
+}
+
+.footer-logo {
+  display: inline-block;
+  position: absolute;
+  right: 210px;
+  bottom: 110px;
+  height: 30px;
+}
+
+.footer-company {
+  text-align: right;
+  letter-spacing: 9px;
+}
+
+.footer-slogan {
+  text-align: right;
+  letter-spacing: 9px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .fullpage
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+}
+
+.container-test
+{
+  position: fixed;
+  width: 110vw;
+  height: 110vh;
+  left: -5vw;
+  top: -5vh;
+  z-index: -1;
+  background: #ff0;
+}  */
+
+.curtain-image{
+  width: 75%;
+}
+
+.curtain {
+  height: 589px;
+  height:100vh;
+  position: relative;
+  z-index: 2;
+  /* background: #1d1d1d; */
+  background: #000000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+    padding-bottom: 100px;
+}
+
+.main{
+  position: fixed;
+  bottom:0;
+  height: 450px;
+  width: 100%;
+
+}
+
+.reveal-main{
+  height: 400px;
+
+}
+
+
+.active {
+  position:relative;
+ /* margin-top:-111px;*/
+  margin-top:-50%;
+  margin-top:-50px;
+  height:900px;
+}
+
+.activetwo {
+
+  position:absolute;
+}
